@@ -1,11 +1,16 @@
 {
   "name": "chess-repertoire-trainer",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "Train opening repertoires from lichess studies.",
   "repository": "https://github.com/TimAstier/chess-repertoire-trainer",
   "author": "Timothée Astier <timotheee.astier@essec.edu>",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "keywords": ["chess", "lichess", "opening repertoire"],
+  "bugs": {
+    "url": "https://github.com/TimAstier/chess-repertoire-trainer/issues"
+  },
+  "homepage": "https://github.com/TimAstier/chess-repertoire-trainer/#readme",
   "dependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",

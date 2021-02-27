@@ -10,7 +10,7 @@ Train opening repertoires from lichess studies.
 
 ## Solution
 
-Fetch the content of lichess studies and provide an interactive way to review lines.
+Use [lichess api](https://lichess.org/api#tag/Studies) to fetch the content of lichess studies and provide an interactive way to review lines.
 
 ## Roadmap
 
@@ -19,3 +19,11 @@ Fetch the content of lichess studies and provide an interactive way to review li
 - [ ] Find all uniques lines.
 - [ ] Test user on one line.
 - [ ] Possibility to define how deep in the line the user should be tested on.
+- [ ] Create an account.
+- [ ] Save link to personal studies.
+- [ ] Save progress and use spaced repetition.
+
+## Built with
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
