@@ -2,31 +2,32 @@
   "name": "chess-repertoire-trainer",
   "version": "0.1.0",
   "private": true,
+  "description": "Train opening repertoires from lichess studies.",
+  "repository": "https://github.com/TimAstier/chess-repertoire-trainer",
+  "author": "Timothée Astier <timotheee.astier@essec.edu>",
+  "license": "UNLICENSED",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "node-fetch": "^2.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "styled-components": "^5.2.1",
+    "typescript": "~3.9.7",
+    "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "eject": "react-scripts eject",
+    "check-types": "tsc -p . --noEmit",
+    "lint": "yarn eslint && yarn check-types",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx src -f codeframe"
   },
   "browserslist": {
     "production": [
@@ -39,5 +40,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
+    "@types/react-router-dom": "^5.1.7",
+    "eslint-config-prettier": "~6.11.0",
+    "eslint-config-storytel": "~6.0.0",
+    "eslint-plugin-chai-friendly": "~0.6.0",
+    "eslint-plugin-prettier": "~3.1.4",
+    "eslint-plugin-react": "~7.20.3",
+    "eslint-plugin-react-hooks": "~4.0.8",
+    "eslint-plugin-simple-import-sort": "~5.0.3",
+    "prettier": "~2.0.5"
   }
 }
