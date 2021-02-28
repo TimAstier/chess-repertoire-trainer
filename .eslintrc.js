@@ -48,6 +48,7 @@ module.exports = {
     'prefer-destructuring': ['error', { object: true, array: true }],
     // note you must disable the base rule as it can report incorrect errors
     'no-use-before-define': 'off',
+    'no-shadow': 'off',
     '@typescript-eslint/no-use-before-define': ['error'],
   },
   env: {

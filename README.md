@@ -1,6 +1,7 @@
 # Chess Repertoire Trainer
 
-Train opening repertoires from lichess studies.
+Train opening repertoires from lichess studies.  
+_[UPDATE]: The studies [endpoint](https://lichess.org/api#tag/Studies) is restricted to SameOrigin requests..._
 
 ## Motivation
 
